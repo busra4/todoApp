@@ -62,17 +62,3 @@ function Lists({ todos, setTodos, todo, setForms, form }) {
 }
 
 export default Lists;
-
-/* 
-        <li key={todo.id} className={todo.completed ? "completed": "" } > 
-         <div className='view' > 
-          <input type="checkbox" className='toggle' onClick={isCompleted}  />
-         <label  > {todo.text} </label> 
-         <button className='destroy' onClick={deleteItem}></button>
-          </div>
-
-
-          onClick={isCompleted}
-
-          onClick={() => toggleTask(idx)}
-        </li>*/
