@@ -4,7 +4,6 @@ import Lists from "./Lists";
 function Forms({ setTodos, todos, form, setForms }) {
   const [value, setValue] = useState("");
 
-  // you can use the submit itself, no need for an extra addTodo function
   const handleSubmit = (e) => {
     console.log("x");
     e.preventDefault();
